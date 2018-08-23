@@ -1,5 +1,7 @@
 # Local Farmware Server
 
+We already have [Host Farmware Tools](https://github.com/FarmBot-Labs/host_farmware_tools), but it isn't written in Ruby.
+
 A server that runs on `localhost:4567` and serves two files:
 
  * `manifest.json` - The Farmware manifest
@@ -20,7 +22,7 @@ git clone THIS_REPO
 cd THIS_REPO
 bundle install
 touch main.py
-touch manifest.json
+echo "{}" > manifest2.json
 ```
 
 # Run
